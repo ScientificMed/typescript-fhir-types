@@ -1,6 +1,6 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Quantity, IQuantity } from './RTTI_Quantity';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Quantity, IQuantity } from '../';
 
 export interface IRange {
 	/**

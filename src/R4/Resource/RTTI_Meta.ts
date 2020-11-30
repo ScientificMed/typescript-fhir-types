@@ -1,11 +1,11 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
+import { RTTI_Extension, IExtension } from '../';
 import { RTTI_id } from '../Scalar/RTTI_id';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_instant } from '../Scalar/RTTI_instant';
 import { RTTI_uri } from '../Scalar/RTTI_uri';
 import { RTTI_canonical } from '../Scalar/RTTI_canonical';
-import { RTTI_Coding, ICoding } from './RTTI_Coding';
+import { RTTI_Coding, ICoding } from '../';
 
 export interface IMeta {
 	/**

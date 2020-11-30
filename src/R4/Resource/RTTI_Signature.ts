@@ -1,5 +1,5 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
+import { RTTI_Extension, IExtension } from '../';
 import { RTTI_Coding, ICoding } from './RTTI_Coding';
 import { RTTI_instant } from '../Scalar/RTTI_instant';
 import { RTTI_Element, IElement } from './RTTI_Element';

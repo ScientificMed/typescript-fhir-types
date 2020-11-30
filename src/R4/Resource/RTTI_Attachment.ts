@@ -1,7 +1,7 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
+import { RTTI_Extension, IExtension } from '../';
 import { RTTI_code } from '../Scalar/RTTI_code';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_base64Binary } from '../Scalar/RTTI_base64Binary';
 import { RTTI_url } from '../Scalar/RTTI_url';
 import { RTTI_unsignedInt } from '../Scalar/RTTI_unsignedInt';

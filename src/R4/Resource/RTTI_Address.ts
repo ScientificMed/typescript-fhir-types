@@ -1,8 +1,8 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
 
-import { RTTI_Period, IPeriod } from './RTTI_Period';
+import { RTTI_Period, IPeriod } from '../';
 export enum AddressUseKind {
 	_home = 'home',
 	_work = 'work',

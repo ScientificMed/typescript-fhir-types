@@ -1,14 +1,14 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
-import { RTTI_Attachment, IAttachment } from './RTTI_Attachment';
-import { RTTI_Coding, ICoding } from './RTTI_Coding';
-import { RTTI_Quantity, IQuantity } from './RTTI_Quantity';
-import { RTTI_Reference, IReference } from './RTTI_Reference';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
+import { RTTI_Attachment, IAttachment } from '../';
+import { RTTI_Coding, ICoding } from '../';
+import { RTTI_Quantity, IQuantity } from '../';
+import { RTTI_Reference, IReference } from '../';
 import {
 	RTTI_QuestionnaireResponse_Item,
 	IQuestionnaireResponse_Item
-} from './RTTI_QuestionnaireResponse_Item';
+} from '../';
 
 export interface IQuestionnaireResponse_Answer {
 	/**

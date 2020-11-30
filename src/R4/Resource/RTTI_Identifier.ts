@@ -1,10 +1,10 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
-import { RTTI_CodeableConcept, ICodeableConcept } from './RTTI_CodeableConcept';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
+import { RTTI_CodeableConcept, ICodeableConcept } from '../';
 import { RTTI_uri } from '../Scalar/RTTI_uri';
-import { RTTI_Period, IPeriod } from './RTTI_Period';
-import { RTTI_Reference, IReference } from './RTTI_Reference';
+import { RTTI_Period, IPeriod } from '../';
+import { RTTI_Reference, IReference } from '../';
 export enum IdentifierUseKind {
 	_usual = 'usual',
 	_official = 'official',

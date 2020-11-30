@@ -1,6 +1,6 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_id } from '../Scalar/RTTI_id';
 import { RTTI_uri } from '../Scalar/RTTI_uri';
 export enum ExpressionLanguageKind {

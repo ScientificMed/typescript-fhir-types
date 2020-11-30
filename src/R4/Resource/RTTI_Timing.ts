@@ -1,9 +1,9 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
+import { RTTI_Extension, IExtension } from '../';
 import { RTTI_dateTime } from '../Scalar/RTTI_dateTime';
-import { RTTI_Element, IElement } from './RTTI_Element';
-import { RTTI_Timing_Repeat, ITiming_Repeat } from './RTTI_Timing_Repeat';
-import { RTTI_CodeableConcept, ICodeableConcept } from './RTTI_CodeableConcept';
+import { RTTI_Element, IElement } from '../';
+import { RTTI_Timing_Repeat, ITiming_Repeat } from '../';
+import { RTTI_CodeableConcept, ICodeableConcept } from '../';
 
 export interface ITiming {
 	/**

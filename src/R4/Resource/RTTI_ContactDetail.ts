@@ -1,7 +1,7 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
-import { RTTI_ContactPoint, IContactPoint } from './RTTI_ContactPoint';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
+import { RTTI_ContactPoint, IContactPoint } from '../';
 
 export interface IContactDetail {
 	/**

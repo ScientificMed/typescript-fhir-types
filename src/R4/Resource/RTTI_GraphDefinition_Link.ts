@@ -1,11 +1,11 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_integer } from '../Scalar/RTTI_integer';
 import {
 	RTTI_GraphDefinition_Target,
 	IGraphDefinition_Target
-} from './RTTI_GraphDefinition_Target';
+} from '../';
 
 export interface IGraphDefinition_Link {
 	/**

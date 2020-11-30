@@ -1,7 +1,7 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Reference, IReference } from './RTTI_Reference';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Reference, IReference } from '../';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_dateTime } from '../Scalar/RTTI_dateTime';
 import { RTTI_markdown } from '../Scalar/RTTI_markdown';
 

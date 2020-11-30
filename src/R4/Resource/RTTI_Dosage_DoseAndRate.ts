@@ -1,9 +1,9 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_CodeableConcept, ICodeableConcept } from './RTTI_CodeableConcept';
-import { RTTI_Range, IRange } from './RTTI_Range';
-import { RTTI_Quantity, IQuantity } from './RTTI_Quantity';
-import { RTTI_Ratio, IRatio } from './RTTI_Ratio';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_CodeableConcept, ICodeableConcept } from '../';
+import { RTTI_Range, IRange } from '../';
+import { RTTI_Quantity, IQuantity } from '../';
+import { RTTI_Ratio, IRatio } from '../';
 
 export interface IDosage_DoseAndRate {
 	/**

@@ -1,6 +1,6 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_markdown } from '../Scalar/RTTI_markdown';
 export enum ExampleScenario_ActorTypeKind {
 	_person = 'person',

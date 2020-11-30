@@ -1,10 +1,10 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
+import { RTTI_Extension, IExtension } from '../';
 import { RTTI_code } from '../Scalar/RTTI_code';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_canonical } from '../Scalar/RTTI_canonical';
-import { RTTI_CodeableConcept, ICodeableConcept } from './RTTI_CodeableConcept';
-import { RTTI_Reference, IReference } from './RTTI_Reference';
+import { RTTI_CodeableConcept, ICodeableConcept } from '../';
+import { RTTI_Reference, IReference } from '../';
 
 import {
 	RTTI_DataRequirement_CodeFilter,

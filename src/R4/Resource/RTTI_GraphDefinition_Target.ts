@@ -1,16 +1,16 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
+import { RTTI_Extension, IExtension } from '../';
 import { RTTI_code } from '../Scalar/RTTI_code';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_canonical } from '../Scalar/RTTI_canonical';
 import {
 	RTTI_GraphDefinition_Compartment,
 	IGraphDefinition_Compartment
-} from './RTTI_GraphDefinition_Compartment';
+} from '../';
 import {
 	RTTI_GraphDefinition_Link,
 	IGraphDefinition_Link
-} from './RTTI_GraphDefinition_Link';
+} from '../';
 
 export interface IGraphDefinition_Target {
 	/**

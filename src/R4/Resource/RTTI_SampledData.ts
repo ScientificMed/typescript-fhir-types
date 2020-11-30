@@ -1,8 +1,8 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Quantity, IQuantity } from './RTTI_Quantity';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Quantity, IQuantity } from '../';
 import { RTTI_decimal } from '../Scalar/RTTI_decimal';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_positiveInt } from '../Scalar/RTTI_positiveInt';
 
 export interface ISampledData {

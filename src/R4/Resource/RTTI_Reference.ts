@@ -1,8 +1,8 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_uri } from '../Scalar/RTTI_uri';
-import { RTTI_Identifier, IIdentifier } from './RTTI_Identifier';
+import { RTTI_Identifier, IIdentifier } from '../';
 
 export interface IReference {
 	/**

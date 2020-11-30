@@ -1,11 +1,11 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_uri } from '../Scalar/RTTI_uri';
 import {
 	RTTI_QuestionnaireResponse_Answer,
 	IQuestionnaireResponse_Answer
-} from './RTTI_QuestionnaireResponse_Answer';
+} from '../';
 
 export interface IQuestionnaireResponse_Item {
 	/**

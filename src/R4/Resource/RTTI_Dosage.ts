@@ -1,15 +1,15 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
+import { RTTI_Extension, IExtension } from '../';
 import { RTTI_integer } from '../Scalar/RTTI_integer';
-import { RTTI_Element, IElement } from './RTTI_Element';
-import { RTTI_CodeableConcept, ICodeableConcept } from './RTTI_CodeableConcept';
-import { RTTI_Timing, ITiming } from './RTTI_Timing';
+import { RTTI_Element, IElement } from '../';
+import { RTTI_CodeableConcept, ICodeableConcept } from '../';
+import { RTTI_Timing, ITiming } from '../';
 import {
 	RTTI_Dosage_DoseAndRate,
 	IDosage_DoseAndRate
-} from './RTTI_Dosage_DoseAndRate';
-import { RTTI_Ratio, IRatio } from './RTTI_Ratio';
-import { RTTI_Quantity, IQuantity } from './RTTI_Quantity';
+} from '../';
+import { RTTI_Ratio, IRatio } from '../';
+import { RTTI_Quantity, IQuantity } from '../';
 
 export interface IDosage {
 	/**

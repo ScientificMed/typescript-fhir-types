@@ -1,8 +1,8 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Reference, IReference } from './RTTI_Reference';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Reference, IReference } from '../';
 import { RTTI_positiveInt } from '../Scalar/RTTI_positiveInt';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Element, IElement } from '../';
 
 export interface IAccount_Coverage {
 	/**

@@ -1,16 +1,16 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_code } from '../Scalar/RTTI_code';
 import { RTTI_markdown } from '../Scalar/RTTI_markdown';
 import {
 	RTTI_ExampleScenario_Version,
 	IExampleScenario_Version
-} from './RTTI_ExampleScenario_Version';
+} from '../';
 import {
 	RTTI_ExampleScenario_ContainedInstance,
 	IExampleScenario_ContainedInstance
-} from './RTTI_ExampleScenario_ContainedInstance';
+} from '../';
 
 export interface IExampleScenario_Instance {
 	/**

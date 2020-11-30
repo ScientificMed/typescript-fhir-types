@@ -1,9 +1,9 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_markdown } from '../Scalar/RTTI_markdown';
 import { RTTI_url } from '../Scalar/RTTI_url';
-import { RTTI_Attachment, IAttachment } from './RTTI_Attachment';
+import { RTTI_Attachment, IAttachment } from '../';
 import { RTTI_canonical } from '../Scalar/RTTI_canonical';
 export enum RelatedArtifactTypeKind {
 	_documentation = 'documentation',

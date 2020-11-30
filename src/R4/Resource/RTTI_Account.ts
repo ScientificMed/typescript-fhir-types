@@ -1,24 +1,24 @@
 import * as t from 'io-ts';
 import { RTTI_id } from '../Scalar/RTTI_id';
-import { RTTI_Meta, IMeta } from './RTTI_Meta';
+import { RTTI_Meta, IMeta } from '../';
 import { RTTI_uri } from '../Scalar/RTTI_uri';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_code } from '../Scalar/RTTI_code';
-import { RTTI_Narrative, INarrative } from './RTTI_Narrative';
+import { RTTI_Narrative, INarrative } from '../';
 import { RTTI_ResourceList, IResourceList } from '../Union/RTTI_ResourceList';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Identifier, IIdentifier } from './RTTI_Identifier';
-import { RTTI_CodeableConcept, ICodeableConcept } from './RTTI_CodeableConcept';
-import { RTTI_Reference, IReference } from './RTTI_Reference';
-import { RTTI_Period, IPeriod } from './RTTI_Period';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Identifier, IIdentifier } from '../';
+import { RTTI_CodeableConcept, ICodeableConcept } from '../';
+import { RTTI_Reference, IReference } from '../';
+import { RTTI_Period, IPeriod } from '../';
 import {
 	RTTI_Account_Coverage,
 	IAccount_Coverage
-} from './RTTI_Account_Coverage';
+} from '../';
 import {
 	RTTI_Account_Guarantor,
 	IAccount_Guarantor
-} from './RTTI_Account_Guarantor';
+} from '../';
 export enum AccountStatusKind {
 	_active = 'active',
 	_inactive = 'inactive',

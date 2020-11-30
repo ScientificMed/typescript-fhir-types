@@ -1,7 +1,7 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Coding, ICoding } from './RTTI_Coding';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Coding, ICoding } from '../';
+import { RTTI_Element, IElement } from '../';
 
 export interface ICodeableConcept {
 	/**

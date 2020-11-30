@@ -1,10 +1,10 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Coding, ICoding } from './RTTI_Coding';
-import { RTTI_CodeableConcept, ICodeableConcept } from './RTTI_CodeableConcept';
-import { RTTI_Quantity, IQuantity } from './RTTI_Quantity';
-import { RTTI_Range, IRange } from './RTTI_Range';
-import { RTTI_Reference, IReference } from './RTTI_Reference';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Coding, ICoding } from '../';
+import { RTTI_CodeableConcept, ICodeableConcept } from '../';
+import { RTTI_Quantity, IQuantity } from '../';
+import { RTTI_Range, IRange } from '../';
+import { RTTI_Reference, IReference } from '../';
 
 export interface IUsageContext {
 	/**

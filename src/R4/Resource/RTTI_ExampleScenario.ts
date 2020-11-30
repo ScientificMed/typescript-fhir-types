@@ -1,30 +1,30 @@
 import * as t from 'io-ts';
 import { RTTI_id } from '../Scalar/RTTI_id';
-import { RTTI_Meta, IMeta } from './RTTI_Meta';
+import { RTTI_Meta, IMeta } from '../';
 import { RTTI_uri } from '../Scalar/RTTI_uri';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_code } from '../Scalar/RTTI_code';
-import { RTTI_Narrative, INarrative } from './RTTI_Narrative';
+import { RTTI_Narrative, INarrative } from '../';
 import { RTTI_ResourceList, IResourceList } from '../Union/RTTI_ResourceList';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Identifier, IIdentifier } from './RTTI_Identifier';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Identifier, IIdentifier } from '../';
 import { RTTI_dateTime } from '../Scalar/RTTI_dateTime';
-import { RTTI_ContactDetail, IContactDetail } from './RTTI_ContactDetail';
-import { RTTI_UsageContext, IUsageContext } from './RTTI_UsageContext';
-import { RTTI_CodeableConcept, ICodeableConcept } from './RTTI_CodeableConcept';
+import { RTTI_ContactDetail, IContactDetail } from '../';
+import { RTTI_UsageContext, IUsageContext } from '../';
+import { RTTI_CodeableConcept, ICodeableConcept } from '../';
 import { RTTI_markdown } from '../Scalar/RTTI_markdown';
 import {
 	RTTI_ExampleScenario_Actor,
 	IExampleScenario_Actor
-} from './RTTI_ExampleScenario_Actor';
+} from '../';
 import {
 	RTTI_ExampleScenario_Instance,
 	IExampleScenario_Instance
-} from './RTTI_ExampleScenario_Instance';
+} from '../';
 import {
 	RTTI_ExampleScenario_Process,
 	IExampleScenario_Process
-} from './RTTI_ExampleScenario_Process';
+} from '../';
 import { RTTI_canonical } from '../Scalar/RTTI_canonical';
 export enum ExampleScenarioStatusKind {
 	_draft = 'draft',

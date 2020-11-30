@@ -1,10 +1,10 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Element, IElement } from './RTTI_Element';
-import { RTTI_Timing, ITiming } from './RTTI_Timing';
-import { RTTI_Reference, IReference } from './RTTI_Reference';
-import { RTTI_DataRequirement, IDataRequirement } from './RTTI_DataRequirement';
-import { RTTI_Expression, IExpression } from './RTTI_Expression';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Element, IElement } from '../';
+import { RTTI_Timing, ITiming } from '../';
+import { RTTI_Reference, IReference } from '../';
+import { RTTI_DataRequirement, IDataRequirement } from '../';
+import { RTTI_Expression, IExpression } from '../';
 export enum TriggerDefinitionTypeKind {
 	_namedEvent = 'named-event',
 	_periodic = 'periodic',

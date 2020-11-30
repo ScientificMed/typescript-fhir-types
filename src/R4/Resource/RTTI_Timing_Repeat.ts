@@ -1,10 +1,10 @@
 import * as t from 'io-ts';
-import { RTTI_Extension, IExtension } from './RTTI_Extension';
-import { RTTI_Duration, IDuration } from './RTTI_Duration';
-import { RTTI_Range, IRange } from './RTTI_Range';
-import { RTTI_Period, IPeriod } from './RTTI_Period';
+import { RTTI_Extension, IExtension } from '../';
+import { RTTI_Duration, IDuration } from '../';
+import { RTTI_Range, IRange } from '../';
+import { RTTI_Period, IPeriod } from '../';
 import { RTTI_positiveInt } from '../Scalar/RTTI_positiveInt';
-import { RTTI_Element, IElement } from './RTTI_Element';
+import { RTTI_Element, IElement } from '../';
 import { RTTI_decimal } from '../Scalar/RTTI_decimal';
 import { RTTI_code} from '../Scalar/RTTI_code';
 import { RTTI_time } from '../Scalar/RTTI_time';

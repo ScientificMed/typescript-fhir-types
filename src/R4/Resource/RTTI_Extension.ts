@@ -1,42 +1,42 @@
 import * as t from 'io-ts';
 import { RTTI_uri } from '../Scalar/RTTI_uri';
-import { RTTI_Element, IElement } from './RTTI_Element';
-import { RTTI_Address, IAddress } from './RTTI_Address';
-import { RTTI_Age, IAge } from './RTTI_Age';
-import { RTTI_Annotation, IAnnotation } from './RTTI_Annotation';
-import { RTTI_Attachment, IAttachment } from './RTTI_Attachment';
-import { RTTI_CodeableConcept, ICodeableConcept } from './RTTI_CodeableConcept';
-import { RTTI_Coding, ICoding } from './RTTI_Coding';
-import { RTTI_ContactPoint, IContactPoint } from './RTTI_ContactPoint';
-import { RTTI_Count, ICount } from './RTTI_Count';
-import { RTTI_Distance, IDistance } from './RTTI_Distance';
-import { RTTI_Duration, IDuration } from './RTTI_Duration';
-import { RTTI_HumanName, IHumanName } from './RTTI_HumanName';
-import { RTTI_Identifier, IIdentifier } from './RTTI_Identifier';
-import { RTTI_Money, IMoney } from './RTTI_Money';
-import { RTTI_Period, IPeriod } from './RTTI_Period';
-import { RTTI_Quantity, IQuantity } from './RTTI_Quantity';
-import { RTTI_Range, IRange } from './RTTI_Range';
-import { RTTI_Ratio, IRatio } from './RTTI_Ratio';
-import { RTTI_Reference, IReference } from './RTTI_Reference';
-import { RTTI_SampledData, ISampledData } from './RTTI_SampledData';
-import { RTTI_Signature, ISignature } from './RTTI_Signature';
-import { RTTI_Timing, ITiming } from './RTTI_Timing';
-import { RTTI_ContactDetail, IContactDetail } from './RTTI_ContactDetail';
-import { RTTI_Contributor, IContributor } from './RTTI_Contributor';
-import { RTTI_DataRequirement, IDataRequirement } from './RTTI_DataRequirement';
-import { RTTI_Expression, IExpression } from './RTTI_Expression';
+import { RTTI_Element, IElement } from '../';
+import { RTTI_Address, IAddress } from '../';
+import { RTTI_Age, IAge } from '../';
+import { RTTI_Annotation, IAnnotation } from '../';
+import { RTTI_Attachment, IAttachment } from '../';
+import { RTTI_CodeableConcept, ICodeableConcept } from '../';
+import { RTTI_Coding, ICoding } from '../';
+import { RTTI_ContactPoint, IContactPoint } from '../';
+import { RTTI_Count, ICount } from '../';
+import { RTTI_Distance, IDistance } from '../';
+import { RTTI_Duration, IDuration } from '../';
+import { RTTI_HumanName, IHumanName } from '../';
+import { RTTI_Identifier, IIdentifier } from '../';
+import { RTTI_Money, IMoney } from '../';
+import { RTTI_Period, IPeriod } from '../';
+import { RTTI_Quantity, IQuantity } from '../';
+import { RTTI_Range, IRange } from '../';
+import { RTTI_Ratio, IRatio } from '../';
+import { RTTI_Reference, IReference } from '../';
+import { RTTI_SampledData, ISampledData } from '../';
+import { RTTI_Signature, ISignature } from '../';
+import { RTTI_Timing, ITiming } from '../';
+import { RTTI_ContactDetail, IContactDetail } from '../';
+import { RTTI_Contributor, IContributor } from '../';
+import { RTTI_DataRequirement, IDataRequirement } from '../';
+import { RTTI_Expression, IExpression } from '../';
 import {
 	RTTI_ParameterDefinition,
 	IParameterDefinition
-} from './RTTI_ParameterDefinition';
-import { RTTI_RelatedArtifact, IRelatedArtifact } from './RTTI_RelatedArtifact';
+} from '../';
+import { RTTI_RelatedArtifact, IRelatedArtifact } from '../';
 import {
 	RTTI_TriggerDefinition,
 	ITriggerDefinition
-} from './RTTI_TriggerDefinition';
-import { RTTI_UsageContext, IUsageContext } from './RTTI_UsageContext';
-import { RTTI_Dosage, IDosage } from './RTTI_Dosage';
+} from '../';
+import { RTTI_UsageContext, IUsageContext } from '../';
+import { RTTI_Dosage, IDosage } from '../';
 
 export interface IExtension {
 	/**
